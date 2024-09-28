@@ -2,6 +2,7 @@
   "name": "react-output_2nd",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/Take4Kobaya4/react-output_2nd.git",
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
@@ -16,6 +17,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "deploy": "rm -rf docs && npm run build && mv build docs",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
